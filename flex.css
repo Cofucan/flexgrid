@@ -149,6 +149,14 @@ nav ul {
     justify-content: center;
   }
   
+  .box-a {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .box-c {
+    border-radius: 0px 0px 10px 10px;
+  }
+
   button {
     width: 45%;
     height: 50px;
