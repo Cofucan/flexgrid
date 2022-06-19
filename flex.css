@@ -13,6 +13,7 @@ body {
 
 nav ul {
   display: flex;
+  margin-bottom: 2em;
   padding: 10px;
   font-size: 25px;
   justify-content: center;
@@ -36,8 +37,7 @@ a:hover {
 }
 
 .main-container {
-  width: 70vw;
-  height: 100vh;
+  max-width: 1440px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@ a:hover {
 
 .main-container div {
   width: 23vw;
-  height: 70%;
+  height: 800px;
   padding: 5%;
   color: hwb(0 95% 5%);
   display: flex;
@@ -59,7 +59,7 @@ button {
   font-family: "Lexend Deca";
   margin-bottom: 30px;
   width: 65%;
-  height: 11%;
+  height: 60px;
   border-color: hsl(0, 0%, 95%);
   border-radius: 40px;
   cursor: pointer;
@@ -79,7 +79,7 @@ h1 {
 }
 
 p {
-  margin-bottom: 50%;
+  margin-bottom: 40%;
   line-height: 30px;
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 18px;
@@ -129,6 +129,10 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+nav ul {
+  margin-bottom: 1em;
+}
+
   .main-container {
     margin: auto;
     display: flex;
