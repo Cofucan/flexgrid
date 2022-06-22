@@ -37,6 +37,8 @@ a:hover {
 }
 
 .main-container {
+  padding-left: 20px;
+  padding-right: 20px;
   max-width: 1440px;
   margin: auto;
   display: flex;
@@ -45,7 +47,8 @@ a:hover {
 }
 
 .main-container div {
-  width: 23vw;
+  min-width: 200px;
+  width: 450px;
   height: 800px;
   padding: 5%;
   color: hwb(0 95% 5%);
@@ -56,9 +59,10 @@ a:hover {
 
 button {
   font-size: 20px;
-  font-family: "Lexend Deca";
+  font-family: 'Lexend Deca', sans-serif;
   margin-bottom: 30px;
-  width: 65%;
+  min-width: 50px;
+  /* width: 280px; */
   height: 60px;
   border-color: hsl(0, 0%, 95%);
   border-radius: 40px;
@@ -75,7 +79,7 @@ h1 {
   margin-bottom: 50px;
   text-transform: uppercase;
   font-size: 60px;
-  font-family: "Big Shoulders Display";
+  font-family: 'Big Shoulders Display', cursive;
 }
 
 p {
@@ -83,7 +87,7 @@ p {
   line-height: 30px;
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 18px;
-  font-family: "Lexend Deca";
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .box-a {
